@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Junipri — a GitHub Pages starter you can ship and customize."
+    />
+    <title>Junipri</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <a class="logo" href="#top" aria-label="Junipri home">Junipri</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#start">Get started</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero" aria-labelledby="brand">
+          <div class="hero-copy">
+            <h1 id="brand" class="brand">Junipri</h1>
+            <p class="tagline">
+              A clean GitHub Pages boilerplate — replace this copy and ship.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#start">Get started</a>
+              <a class="btn btn-ghost" href="#about">Learn more</a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="orb orb-a"></div>
+            <div class="orb orb-b"></div>
+            <div class="grid-fade"></div>
+          </div>
+        </section>
+
+        <section id="about" class="section">
+          <h2>About</h2>
+          <p>
+            This site is static HTML, CSS, and a little JavaScript. Push it to a
+            GitHub repository, turn on Pages from the
+            <code>main</code> branch root, and it goes live at
+            <code>*.github.io</code>.
+          </p>
+        </section>
+
+        <section id="start" class="section">
+          <h2>Get started</h2>
+          <ol class="steps">
+            <li>Edit <code>index.html</code>, <code>css/styles.css</code>, and <code>js/main.js</code>.</li>
+            <li>Commit and push to <code>main</code>.</li>
+            <li>
+              In the repo: <strong>Settings → Pages → Deploy from a branch</strong>,
+              choose <code>main</code> / <code>/</code> (root).
+            </li>
+          </ol>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p><span id="year"></span> Junipri</p>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
